@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JasaParkir xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="JasaParkir.xsd">
+
+	<nama>Muhamad Rifan</nama>
+	<NomorKendaraan>Z 1933 BD</NomorKendaraan>
+	<GolonganKendaraan>2</GolonganKendaraan>
+	<Jenis>Avanza</Jenis>
+	<KeteranganSTNK>Ya</KeteranganSTNK>
+	<jeniskelamin>laki-Laki</jeniskelamin>
+	<alamat>Tasikmalaya</alamat>
+	<email>muhamadrifanzamaludin@gmail.com</email>
+	<Alamat parkir="Bandung Indah Plaza">
+		<alamat>jalan Wastukencana Bandung</alamat>
+	</Alamat>
+	
+	<nama>Achmad Fatahilal</nama>
+	<NomorKendaraan>B 9873 BDO</NomorKendaraan>
+	<GolonganKendaraan>2</GolonganKendaraan>
+	<Jenis>Mobilio</Jenis>
+	<KeteranganSTNK>Ya</KeteranganSTNK>
+	<jeniskelamin>laki-Laki</jeniskelamin>
+	<alamat>Bekasi</alamat>
+	<email>achmadganteng@gmail.com</email>
+	<Alamat parkir="Bandung Indah Plaza">
+		<alamat>jalan Wastukencana Bandung</alamat>
+	</Alamat>
+	
+	<nama>Agus</nama>
+	<NomorKendaraan>BG 7540 KL</NomorKendaraan>
+	<GolonganKendaraan>2</GolonganKendaraan>
+	<Jenis>Agya</Jenis>
+	<KeteranganSTNK>Ya</KeteranganSTNK>
+	<jeniskelamin>laki-Laki</jeniskelamin>
+	<alamat>Palembang</alamat>
+	<email>agusiki@gmail.com</email>
+	<Alamat parkir="Bandung Indah Plaza">
+		<alamat>jalan Wastukencana Bandung</alamat>
+	</Alamat>
+	
+	<nama>yoga ryan</nama>
+	<NomorKendaraan>B 1100 DTG</NomorKendaraan>
+	<GolonganKendaraan>2</GolonganKendaraan>
+	<Jenis>Avanza</Jenis>
+	<KeteranganSTNK>Ya</KeteranganSTNK>
+	<jeniskelamin>laki-Laki</jeniskelamin>
+	<alamat>Tasikmalaya</alamat>
+	<email>ryanjombang@gmail.com</email>
+	<alamat parkir="Bandung Indah Plaza">
+		<alamat>jalan Wastukencana Bandung</alamat>
+	</alamat>
+	
+		<nama>Kharisma Soraya</nama>
+	<NomorKendaraan>Z 1357 BD</NomorKendaraan>
+	<GolonganKendaraan>2</GolonganKendaraan>
+	<Jenis>Avanza</Jenis>
+	<KeteranganSTNK>Ya</KeteranganSTNK>
+	<jeniskelamin>Perempuan</jeniskelamin>
+	<alamat>Tasikmalaya</alamat>
+	<email>Sorayakharisma@gmail.com</email>
+	<alamat parkir=" Indah Plaza">
+		<alamat>jalan Wastukencana Bandung</alamat>
+	</alamat>
+	</JasaParkir>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <xs:import namespace="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="xsixml"/>
+    <xs:element name="JasaParkir">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element ref="alamat"/>
+                <xs:element ref="Alamat"/>
+                <xs:element ref="GolonganKendaraan"/>
+                <xs:element ref="Jenis"/>
+                <xs:element ref="KeteranganSTNK"/>
+                <xs:element ref="NomorKendaraan"/>
+                <xs:element ref="email"/>
+                <xs:element ref="jeniskelamin"/>
+                <xs:element ref="nama"/>
+            </xs:choice>
+            <xs:attribute name="Data" use="required" type="xs:NCName"/>
+            <xs:attribute ref="xsi:noNamespaceSchemaLocation" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Alamat">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="alamat"/>
+            </xs:sequence>
+            <xs:attribute name="parkir" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GolonganKendaraan" type="xs:integer"/>
+    <xs:element name="Jenis" type="xs:NCName"/>
+    <xs:element name="KeteranganSTNK" type="xs:NCName"/>
+    <xs:element name="NomorKendaraan" type="xs:string"/>
+    <xs:element name="email" type="xs:string"/>
+    <xs:element name="jeniskelamin" type="xs:NCName"/>
+    <xs:element name="nama" type="xs:string"/>
+    <xs:element name="alamat">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="alamat"/>
+            </xs:sequence>
+            <xs:attribute name="parkir"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
